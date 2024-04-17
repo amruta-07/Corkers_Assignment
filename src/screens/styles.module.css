@@ -1,0 +1,90 @@
+/* styles.module.css */
+.addButton {
+    right: 0px;
+    width: 100px;
+}
+
+.tableCell {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.iconCell {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; Align items to the end of the flex container (top right corner) */
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.modalTitle {
+    /* background-color: black; */
+    color: white;
+    text-align: center;
+  }
+  
+  .modalContent {
+    /* display: flex; */
+    /* flex-direction: row; */
+background-color: white;
+padding: 10px ;
+justify-content: center;
+align-items: center;
+margin: auto;
+
+  }
+  
+  .modalTextField {
+    background-color: black;
+    /* color: white; */
+    margin-left: 100px;
+
+  }
+  
+  .modalButtonRow1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ margin-bottom: 20px;
+    /* background: red; */
+  }
+  
+  .modalButton {
+    width: 120px;
+  }
+  
+  .modalCloseButton {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    /* background-color: #000; */
+    
+    /* color: white; */
+  }
+
+  .modalInput{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    background-color: #222222;
+    color: white;
+    margin-left: 12px;
+    padding-left: 8px;
+    margin-top: 5px;
+
+  }
+
+  ::placeholder {
+    color: #777777;
+    opacity: 1; /* Firefox */
+  }
+  

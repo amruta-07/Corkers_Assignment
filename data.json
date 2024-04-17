@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Amruta Misal",
+      "address": "Aundh, Pune, Maharashtra",
+      "pincode": "411007",
+      "mobileNumber": "9146135024",
+      "email": "misalamruta08@gmail.com",
+      "website": "amruta.com"
+    }
+  ]
+}
